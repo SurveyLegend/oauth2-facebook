@@ -64,11 +64,8 @@ class Facebook extends AbstractProvider
         'email',
         'hometown',
         'picture.type(large){url,is_silhouette}',
-        'cover{source}',
         'gender',
-        'locale',
         'link',
-        'timezone',
         'age_range'
     ];
 
