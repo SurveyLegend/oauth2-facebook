@@ -48,7 +48,7 @@ $provider = new \League\OAuth2\Client\Provider\Facebook([
     'clientId'          => '{facebook-app-id}',
     'clientSecret'      => '{facebook-app-secret}',
     'redirectUri'       => 'https://example.com/callback-url',
-    'graphApiVersion'   => 'v2.10',
+    'graphApiVersion'   => 'v3.3',
 ]);
 
 if (!isset($_GET['code'])) {

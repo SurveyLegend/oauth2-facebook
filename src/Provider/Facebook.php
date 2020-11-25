@@ -106,7 +106,7 @@ class Facebook extends AbstractProvider
             $message = 'The "graphApiVersion" option not set. Please set a default Graph API version.';
             throw new \InvalidArgumentException($message);
         } elseif (!preg_match(self::GRAPH_API_VERSION_REGEX, $options['graphApiVersion'])) {
-            $message = 'The "graphApiVersion" must start with letter "v" followed by version number, ie: "v2.4".';
+            $message = 'The "graphApiVersion" must start with letter "v" followed by version number, ie: "v3.3".';
             throw new \InvalidArgumentException($message);
         }
 
