@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## 2.0.3 - October 1, 2020
+
+- Removed "link" scope, #60 by @mikealmond
+
+## 2.0.2 - July 25, 2020
+
+- Removed deprecated default scopes
+- Added support for PHP 7.2, 7.3, 7.4
+- Removed support for HHVM
+
 ## 2.0.1 - July 21, 2017
 
 - Fixed a bug when checking Graph versions past v2.9 (#40)
